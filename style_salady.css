@@ -1,0 +1,34 @@
+@charset "uft-8";
+@import "default.css"; 
+
+body{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #333;}
+
+/* ----header----- */
+header{width: 100%; height: 100px; background: #fff; position: relative; z-index: 999; top: 0;}
+.section{max-width: 1300px; margin: 0 auto; display: flex; justify-content: space-between; }
+.section .logo{}
+.section .logo img{width: 100px; height: 100px;}
+.section .nav{}
+.section .nav .sub{}
+.section .btn{}
+
+/* ----main---- */
+#main{width: 100%; margin: 100px auto;}
+
+
+/* ----swiper---- */
+.swiper { width: 100%; height: 100%;}
+.swiper-slide {text-align: center; font-size: 18px; background: #fff; display: flex; justify-content: center; align-items: center;}
+.swiper-slide img {display: block; width: 100%; height: 100%; object-fit: cover;}
+
+.video{width: 100%; height: 100%; text-align: center; padding-top: 30px;}
+
+.sns{width: 800px; margin: 100px auto;}
+.sns h3{font-size: 26px; text-align: center; }
+
+
+/* ----footer---- */
+footer{width: 100%; margin: 0 auto; background: #333;}
+.footer_p, .footer_a address{color: #eee; font-size: 12px; text-align: center; padding-top: 10px; font-style: normal;}

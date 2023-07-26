@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>샐러디</title>
+  <link rel="stylesheet" href="style_salady.css">
+
+  <!-- swiper -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- 폰트 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <section class="header">
+      <div class="section">
+        <div class="logo">
+          <a href="salady.html"><img src="logo.jpg" alt="salady"></a>
+        </div>
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="#">브랜드</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">샐러디</a></li>
+                  <li><a href="#">샐러디키친</a></li>
+                  <li><a href="#">샐러디팜</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">메뉴</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">ALL</a></li>
+                  <li><a href="salady_sub.html">웜볼</a></li>
+                  <li><a href="#">샐러디</a></li>
+                  <li><a href="#">샌드&랩</a></li>
+                  <li><a href="#">브레드</a></li>
+                  <li><a href="#">토핑&드레싱</a></li>
+                  <li><a href="#">음료&사이드</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">영양정보</a>
+            </li>
+            <li>
+              <a href="#">APP</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">샐러디 멤버십</a></li>
+                  <li><a href="#">샐러리 오더</a></li>
+                  <li><a href="#">기프트카드</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">매장</a>
+            </li>
+            <li>
+              <a href="#">프랜차이즈</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">가맹안내</a></li>
+                  <li><a href="#">가맹상담 신청</a></li>
+                  <li><a href="#">가맹설명회 신청</a></li>
+                  <li><a href="#">추천 입지</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">새소식</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">칭찬매장</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn">
+        <a class="menu-trigger" href="#">
+          <span>햄버거자리</span>
+          <span></span>
+          <span></span>
+      </a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="swiper mySwiper">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="salady_ba1.png" alt=""></div>
+          <div class="swiper-slide"><img src="salady_ba2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="salady_ba3.png" alt=""></div>
+          <div class="swiper-slide"><img src="salady_ba4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="salady_ba5.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <section class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/PhK-i3z_uvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    
+    <section class="sns">
+      <h3 style="font-family: 'Handjet' !important">SALLADY INSTAGRAM</h3>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer_p">
+      <p>개인정보처리방침 | 서비스이용약관</p>
+    </div>
+    <div class="footer_a">
+      <address>
+      회사명: (주)샐러디 사업자등록번호 : 681-86-00031 COPYRIGHT(C) 2022 ㈜샐러디. CO.LTD ALL RIGHT RESERVED.
+    </address>
+    </div>
+  </footer>
+
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    let swiper = new Swiper(".mySwiper", {
+      autoplay:{
+        delay: 3000
+      },
+      loop: true,
+      pagination: {
+      el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+</html>
