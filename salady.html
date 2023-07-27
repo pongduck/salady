@@ -21,27 +21,23 @@
 <body>
   <header>
     <section class="header">
-      <h1>수정중입니당잉</h1>
       <div class="section">
         <div class="logo">
           <a href="salady.html"><img src="logo.jpg" alt="salady"></a>
         </div>
         <div class="nav">
           <ul>
-            <li>
+            <li class="active">
               <a href="#">브랜드</a>
-              <div class="sub">
-                <ul>
+                <ul class="sub">
                   <li><a href="#">샐러디</a></li>
                   <li><a href="#">샐러디키친</a></li>
                   <li><a href="#">샐러디팜</a></li>
                 </ul>
-              </div>
             </li>
-            <li>
+            <li class="active">
               <a href="#">메뉴</a>
-              <div class="sub">
-                <ul>
+                <ul class="sub">
                   <li><a href="#">ALL</a></li>
                   <li><a href="salady_sub.html">웜볼</a></li>
                   <li><a href="#">샐러디</a></li>
@@ -50,46 +46,39 @@
                   <li><a href="#">토핑&드레싱</a></li>
                   <li><a href="#">음료&사이드</a></li>
                 </ul>
-              </div>
             </li>
-            <li>
+            <li class="active">
               <a href="#">영양정보</a>
             </li>
-            <li>
+            <li class="active">
               <a href="#">APP</a>
-              <div class="sub">
-                <ul>
+                <ul class="sub">
                   <li><a href="#">샐러디 멤버십</a></li>
                   <li><a href="#">샐러리 오더</a></li>
                   <li><a href="#">기프트카드</a></li>
                 </ul>
-              </div>
             </li>
-            <li>
+            <li class="active">
               <a href="#">매장</a>
             </li>
-            <li>
+            <li class="active">
               <a href="#">프랜차이즈</a>
-              <div class="sub">
-                <ul>
+                <ul class="sub">
                   <li><a href="#">가맹안내</a></li>
                   <li><a href="#">가맹상담 신청</a></li>
                   <li><a href="#">가맹설명회 신청</a></li>
                   <li><a href="#">추천 입지</a></li>
                 </ul>
-              </div>
             </li>
-            <li>
+            <li class="active">
               <a href="#">새소식</a>
-              <div class="sub">
-                <ul>
+                <ul class="sub">
                   <li><a href="#">공지사항</a></li>
                   <li><a href="#">이벤트</a></li>
                   <li><a href="#">칭찬매장</a></li>
                 </ul>
-              </div>
             </li>
-            <li>
+            <li class="active">
               <a href="#">FAQ</a>
             </li>
           </ul>
@@ -150,6 +139,22 @@
       el: ".swiper-pagination",
       },
     });
+
+    // const mainlists=document.querySelectorAll('.active');
+    // //상태변수 state= 1, 0
+    // let state= 1;
+    // for(let i=0; i<mainlists.length; i++){
+    //     mainlists[i].onclick=function(){
+    //         if(state==1){
+    //             this.getElementsByTagName('ul')[0].style.height='90px'
+    //             state=0;   //state—;
+    //         }else{
+    //             this.getElementsByTagName('ul')[0].style.height='0px'
+    //             state=1;   //state++;
+    //         }
+    //     }
+    // }
+
   </script>
 </body>
 </html>
