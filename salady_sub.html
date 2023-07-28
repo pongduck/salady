@@ -4,86 +4,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>웜볼</title>
-  <link rel="stylesheet" href="style_salady.css">
-  <link rel="stylesheet" href="style_salady_sub.css">
+  <link rel="stylesheet" href="css/style_salady.css">
+  <link rel="stylesheet" href="css/style_salady_sub.css">
+  <link rel="stylesheet" href="js/script_salady.js">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 <body>
-  <header id="header">
-    <div class="header_inner">
-      <h1 class="logo"><a href="salady.html"><img src="logo.jpg" alt="salady"></a></h1>
-      <nav>
-        <ul id="gnb">
-          <li class="gnb_1">
-            <a href="#">브랜드</a>
-              <ul class="gnb_2">
-                <li><a href="#">샐러디</a></li>
-                <li><a href="#">샐러디키친</a></li>
-                <li><a href="#">샐러디팜</a></li>
-              </ul>
-          </li>
-          <li class="gnb_1">
-            <a href="#">메뉴</a>
-              <ul class="gnb_2">
-                <li><a href="#">ALL</a></li>
-                <li><a href="salady_sub.html">웜볼</a></li>
-                <li><a href="#">샐러디</a></li>
-                <li><a href="#">샌드&랩</a></li>
-                <li><a href="#">브레드</a></li>
-                <li><a href="#">토핑&드레싱</a></li>
-                <li><a href="#">음료&사이드</a></li>
-              </ul>
-          </li>
-          <li class="gnb_1">
-            <a href="#">영양정보</a>
-          </li>
-          <li class="gnb_1">
-            <a href="#">APP</a>
-              <ul class="gnb_2">
-                <li><a href="#">샐러디 멤버십</a></li>
-                <li><a href="#">샐러리 오더</a></li>
-                <li><a href="#">기프트카드</a></li>
-              </ul>
-          </li>
-          <li class="gnb_1">
-            <a href="#">매장</a>
-          </li>
-          <li class="gnb_1">
-            <a href="#">프랜차이즈</a>
-              <ul class="gnb_2">
-                <li><a href="#">가맹안내</a></li>
-                <li><a href="#">가맹상담 신청</a></li>
-                <li><a href="#">가맹설명회 신청</a></li>
-                <li><a href="#">추천 입지</a></li>
-              </ul>
-          </li>
-          <li class="gnb_1">
-            <a href="#">새소식</a>
-              <ul class="gnb_2">
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">이벤트</a></li>
-                <li><a href="#">칭찬매장</a></li>
-              </ul>
-          </li>
-          <li class="gnb_1">
-            <a href="#">FAQ</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="btn">
-        <a class="menu-trigger" href="#">
-          <span>햄버거자리</span>
-          <span></span>
-          <span></span>
-      </a>
+  <header>
+    <section class="header">
+      <div class="section">
+        <div class="logo">
+          <a href="salady.html"><img src="img/logo.jpg" alt="salady"></a>
+        </div>
+        <div class="nav">
+          <ul>
+            <li class="active">
+              <a href="#">브랜드</a>
+                <ul class="sub">
+                  <li><a href="#">샐러디</a></li>
+                  <li><a href="#">샐러디키친</a></li>
+                  <li><a href="#">샐러디팜</a></li>
+                </ul>
+            </li>
+            <li class="active">
+              <a href="#">메뉴</a>
+                <ul class="sub">
+                  <li><a href="#">ALL</a></li>
+                  <li><a href="salady_sub.html">웜볼</a></li>
+                  <li><a href="#">샐러디</a></li>
+                  <li><a href="#">샌드&랩</a></li>
+                  <li><a href="#">브레드</a></li>
+                  <li><a href="#">토핑&드레싱</a></li>
+                  <li><a href="#">음료&사이드</a></li>
+                </ul>
+            </li>
+            <li class="active">
+              <a href="#">영양정보</a>
+            </li>
+            <li class="active">
+              <a href="#">APP</a>
+                <ul class="sub">
+                  <li><a href="#">샐러디 멤버십</a></li>
+                  <li><a href="#">샐러리 오더</a></li>
+                  <li><a href="#">기프트카드</a></li>
+                </ul>
+            </li>
+            <li class="active">
+              <a href="#">매장</a>
+            </li>
+            <li class="active">
+              <a href="#">프랜차이즈</a>
+                <ul class="sub">
+                  <li><a href="#">가맹안내</a></li>
+                  <li><a href="#">가맹상담 신청</a></li>
+                  <li><a href="#">가맹설명회 신청</a></li>
+                  <li><a href="#">추천 입지</a></li>
+                </ul>
+            </li>
+            <li class="active">
+              <a href="#">새소식</a>
+                <ul class="sub">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">칭찬매장</a></li>
+                </ul>
+            </li>
+            <li class="active">
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn">
+        <a href="#"><img src="img/hamber.png" alt=""> </a>
+        </div>
       </div>
-    </div>
+    </section>
   </header>
 
   <div>
     <div class="banner">
-      <img src="sub_visual_1.png" alt="">
+      <img src="img/sub_visual_1.png" alt="">
       <h3>신선한 채소 베이스 위에 따끈한 통곡물 밥이 더해져<br>더욱 든든하게 즐길 수 있는 웜볼</h3>
     </div>
     <div class="banner_sub">
@@ -102,6 +103,7 @@
         <li><a href="#">팔도비빔우삼겹 웜볼</a></li>
       </ul>
     </div>
+
     <div class="visual">
       <div class="title">
         <h3>칠리베이컨 웜볼</h3>
@@ -110,7 +112,7 @@
       <div class="container">
         <div class="left">
           <span>best</span>
-          <img src="warm.png" alt="">
+          <img src="img/warm.png" alt="">
         </div>
         <div class="right">
           <div>
@@ -128,7 +130,83 @@
         </div>
       </div>
     </div>
+
+    <div class="detail">
+      <div class="gr">
+        <div class="gr_tit">
+          <img src="img/gr.png" alt="곡물 구성"><span>곡물 구성</span>
+        </div>
+        <ul>
+          <li><img src="img/gr_1.jpg" alt="귀리"><p>귀리</p></li>
+          <li><img src="img/gr_2.jpg" alt="찹쌀"><p>찹쌀</p></li>
+          <li><img src="img/gr_3.jpg" alt="찰보리"><p>찰보리</p></li>
+        </ul>
+      </div>
+      <div class="ve">
+        <div class="ve_tit">
+          <img src="img/ve.png" alt="채소구성"><span>채소 구성</span>
+        </div>
+        <ul>
+          <li><img src="img/ve_1.jpg" alt="로메인"><p>로메인</p></li>
+          <li><img src="img/ve_2.jpeg" alt="프릴아이스"><p>프릴아이스</p></li>
+          <li><img src="img/ve_3.png" alt="카이피라"><p>카이피라</p></li>
+          <li><img src="img/ve_4.png" alt="라디치오"><p>라디치오</p></li>
+        </ul>
+      </div>
+      <p>*기후에 따라 채소 구성은 달라질 수 있습니다.</p>
+    </div>
+
+    <div class="table">
+      <h3>영양성분표</h3>
+      <table>
+        <tbody>
+          <tr>
+            <th>메뉴</th>
+            <th>열량(kcal)</th>
+            <th>탄수화물(g)</th>
+            <th>당류(g)</th>
+            <th>단백질(g)</th>
+            <th>지방(g)</th>
+            <th>포화지방(g)</th>
+            <th>나트륨(mg)</th>
+          </tr>
+          <tr>
+            <td>칠리베이컨 웜볼</td>
+            <td>480.37</td>
+            <td>64.33</td>
+            <td>4.41</td>
+            <td>20.07</td>
+            <td>15.81</td>
+            <td>5.66</td>
+            <td>437.78</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </main>
 
+  <footer>
+    <div class="footer_p">
+      <p>개인정보처리방침 | 서비스이용약관</p>
+    </div>
+    <div class="footer_a">
+      <address>
+      회사명: (주)샐러디사업자등록번호 : 681-86-00031 COPYRIGHT(C) 2022 ㈜샐러디. CO.LTD ALL RIGHT RESERVED.
+    </address>
+    </div>
 </body>
+<script>
+  const active = $('.active').has('.sub');
+const nav_bg = $('.nav_bg');
+
+
+
+active.on('mouseover', function() {
+  nav_bg.stop().animate({ height: '60px'}, 200);
+});
+
+active.on('mouseout', function() {
+  nav_bg.stop().animate({ height: '0px' }, 200);
+});
+</script>
 </html>

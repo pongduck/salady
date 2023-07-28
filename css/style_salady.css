@@ -1,0 +1,48 @@
+@charset "uft-8";
+@import "default.css"; 
+
+a{color: #333;} 
+
+/* ----header----- */
+header{width: 100%; height: 100px; background: #fff; position: relative; z-index: 999;}
+.section{width: 100%; height: 100px; margin: 0 auto; /*margin-top: 15px; 없어도 됨 */ display: flex; justify-content: space-around; position: relative;align-items: center;/*로고 내리려던 의도로 보임 이거로 교체함 flex 인 경우에 쓸수있음*/}
+.section .logo{display: inline-block; margin-left: 30px; vertical-align: top;}
+.section .logo img{width: 80px; height: 80px;}
+.section .nav{ height:100px; text-align: center;}
+.section .nav>ul{display: flex; height:100px; justify-content:center; cursor: pointer; gap:40px;}
+.section .nav ul .active>a {font-size:22px; font-weight: bold; height:100px;}
+.section .nav>ul>.active{text-align: center; line-height: 5; position: relative; /*margin: 0 30px;*/}
+.section .nav ul .active a:hover{font-weight: bold; color: #226140;}
+.section .nav ul .active .sub{overflow: hidden; /*background: green;삭제 nav_bg가 할것임*/ position:absolute; z-index:99999999999999; opacity:0; display: flex; width:500px; gap:20px; left: 0; top:100px;}
+
+.section .nav ul .active .sub li{height:60px;} 
+.section .nav ul .active .sub li a{color: #fff; font-size: 12px; line-height:60px; display: block;}
+
+/* .section .nav{display: block;} */
+.section .nav ul .active:hover .sub{opacity:1;}
+
+.section .nav ul .active:hover {transition-duration: 0.5s;}
+.section .nav ul .active:hover>.sub { transition-duration: 1s;} 
+
+.header .nav_bg{width:100%; background: green; height:0;}
+
+.btn img{width: 80px; height: 80px;}
+
+/* ----main---- */
+#main{width: 100%; margin: 100px auto;}
+
+
+/* ----swiper---- */
+.swiper { width: 100%; height: 100%;}
+.swiper-slide {text-align: center; font-size: 18px; background: #fff; display: flex; justify-content: center; align-items: center;}
+.swiper-slide img {display: block; width: 100%; height: 100%; object-fit: cover;}
+
+.video{width: 100%; height: 100%; text-align: center; padding-top: 30px;}
+
+.sns{width: 800px; margin: 100px auto;}
+.sns h3{font-size: 26px; text-align: center; }
+
+
+/* ----footer---- */
+footer{width: 100%; margin: 0 auto; background: #333;}
+.footer_p, .footer_a address{color: #eee; font-size: 12px; text-align: center; padding-top: 10px; font-style: normal;}
