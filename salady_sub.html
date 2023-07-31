@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>웜볼</title>
+  <!-- style -->
   <link rel="stylesheet" href="css/style_salady.css">
   <link rel="stylesheet" href="css/style_salady_sub.css">
   <link rel="stylesheet" href="js/script_salady.js">
@@ -199,18 +200,19 @@
 
 
 <script>
-  const active = $('.active').has('.sub');
-const nav_bg = $('.nav_bg');
+// js에 옮기면 안됨 (sub메뉴 초록배경)
+const active = $('.active').has('.sub');
+  const nav_bg = $('.nav_bg');
 
 
 
-active.on('mouseover', function() {
-  nav_bg.stop().animate({ height: '60px'}, 200);
-});
+  active.on('mouseover', function() {
+    nav_bg.stop().animate({ height: '60px'}, 200);
+  });
 
-active.on('mouseout', function() {
-  nav_bg.stop().animate({ height: '0px' }, 200);
-});
+  active.on('mouseout', function() {
+    nav_bg.stop().animate({ height: '0px' }, 200);
+  });
 </script>
 </body>
 </html>
