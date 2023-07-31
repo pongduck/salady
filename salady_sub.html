@@ -6,6 +6,7 @@
   <title>웜볼</title>
   <link rel="stylesheet" href="css/style_salady.css">
   <link rel="stylesheet" href="css/style_salady_sub.css">
+  <link rel="stylesheet" href="js/script_salady.js">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
@@ -75,9 +76,10 @@
           </ul>
         </div>
         <div class="btn">
-        <a href="#"><img src="img/hamber.png" alt=""> </a>
+          <a href="#"><img src="img/hamber.png" alt=""> </a>
         </div>
       </div>
+      <div class="nav_bg"></div>
     </section>
   </header>
 
@@ -131,6 +133,7 @@
     </div>
 
     <div class="detail">
+      <h3>상세설명</h3>
       <div class="gr">
         <div class="gr_tit">
           <img src="img/gr.png" alt="곡물 구성"><span>곡물 구성</span>
@@ -149,7 +152,7 @@
           <li><img src="img/ve_1.jpg" alt="로메인"><p>로메인</p></li>
           <li><img src="img/ve_2.jpeg" alt="프릴아이스"><p>프릴아이스</p></li>
           <li><img src="img/ve_3.png" alt="카이피라"><p>카이피라</p></li>
-          <li><img src="img/ve_4.png" alt="라디치오"><p>라디치오</p></li>
+          <li><img src="img/ve_4.jpg" alt="라디치오"><p>라디치오</p></li>
         </ul>
       </div>
       <p>*기후에 따라 채소 구성은 달라질 수 있습니다.</p>
@@ -193,7 +196,8 @@
       회사명: (주)샐러디사업자등록번호 : 681-86-00031 COPYRIGHT(C) 2022 ㈜샐러디. CO.LTD ALL RIGHT RESERVED.
     </address>
     </div>
-</body>
+
+
 <script>
   const active = $('.active').has('.sub');
 const nav_bg = $('.nav_bg');
@@ -208,4 +212,5 @@ active.on('mouseout', function() {
   nav_bg.stop().animate({ height: '0px' }, 200);
 });
 </script>
+</body>
 </html>

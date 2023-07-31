@@ -21,3 +21,20 @@
 .container .right div{background: gainsboro; box-sizing: border-box; padding: 20px; margin-top: 40px; width: 100%;}
 .container .right strong{font-size: 24px;}
 .container .right p{font-size: 14px;}
+
+.detail{width: 100%; margin: 50px auto;}
+.detail h3{text-align: center; margin: 0 auto; width: 100%; max-width: 1300px;}
+.detail .gr .gr_tit, .detail .ve .ve_tit{width: 150px; box-sizing: border-box; background: #226140; padding: 30px; top: 30px; left: 0;}
+.detail .gr .gr_tit span, .detail .ve .ve_tit span{text-align: center; color: #fff; font-weight: bold;}
+.detail .gr ul li, .detail .ve ul li{display: inline-block; vertical-align: top; text-align: center;}
+.detail .gr img, .detail .ve img{width: 95px;}
+
+.detail .gr{border-bottom: 1px solid #ddd;}
+.detail .gr ul{width: 100%; text-align: left;}
+.detail p{}
+
+.table{background: #eee; padding: 10px;}
+.table h3{text-align: center; margin: 30px auto;}
+.table table{text-align: center; width: 100%; max-width: 1300px; height: 100px; margin: 0 auto;}
+.table th{background: #226140; color: #fff;}
+.table td{background: #fff;}
