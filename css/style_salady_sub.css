@@ -1,4 +1,4 @@
-@charset "uft-8";
+/* @charset "uft-8";
 @import "default.css"; 
 
 .banner { position: relative; height: 320px; text-align: center;}
@@ -21,20 +21,45 @@
 .container .right div{background: gainsboro; box-sizing: border-box; padding: 20px; margin-top: 40px; width: 100%;}
 .container .right strong{font-size: 24px;}
 .container .right p{font-size: 14px;}
+*/
 
-.detail{width: 100%; margin: 50px auto;}
-.detail h3{text-align: center; margin: 0 auto; width: 100%; max-width: 1300px;}
-.detail .gr .gr_tit, .detail .ve .ve_tit{width: 150px; box-sizing: border-box; background: #226140; padding: 30px; top: 30px; left: 0;}
+@charset "uft-8";
+@import "default.css"; 
+
+.banner { position: relative; height: 320px; text-align: center; overflow: hidden;}
+.banner img{width:auto; height:320px; position: absolute; left: 50%; top: 0; transform: translateX(-50% ); }
+.banner h3{position: absolute; top: 100px; left: 50%; transform: translateX(-50% ); color: #fff; font-weight: bold; }
+.banner_sub{ width: 100%; max-width: 1300px; margin: 0 auto; position: relative; left:0; bottom: 25px;}
+.banner_sub p{height: 60px; background: #226140; text-align: center; line-height: 50px; color: #fff; font-size: 20px;}
+.nav_bar{width: 100%; max-width: 1300px; margin: 0 auto; text-align: center; }
+.nav_bar ul{display: flex; max-width: 1300px;  height: 60px;}
+.nav_bar ul li{border: 1px solid #ddd; width: calc(100%/6);}
+
+.visual{width: 100%; max-width: 1300px; margin: 0 auto; height: 500px;}
+.visual .title{text-align: center; margin: 40px; font-size: 24px;}
+
+.container{width: 100%; max-width: 1300px; margin: 0 auto; text-align: center;}
+.container .left{position: relative; width: 45%; float: left;}
+.container .left span{border-radius: 20px; background: salmon;color: #fff; top: 0;  position: absolute; left: 40px; width: 90px; }
+.container .right{width: 35%; float: right;}
+.container .right div{background: gainsboro; box-sizing: border-box; padding: 20px; margin-top: 40px; width: 100%; border-radius: 10px;}
+.container .right strong{font-size: 24px;}
+.container .right p{font-size: 14px;}
+.container .arrow {float: right;}
+
+.detail{width: 100%; max-width: 1300px; margin: 0 auto;}
+.detail h3{text-align: center; margin: 40px; font-size: 24px;}
+.detail .gr .gr_tit, .detail .ve .ve_tit{width: 150px; margin: 0 auto; box-sizing: border-box; background: #226140; padding: 30px;} 
 .detail .gr .gr_tit span, .detail .ve .ve_tit span{text-align: center; color: #fff; font-weight: bold;}
 .detail .gr ul li, .detail .ve ul li{display: inline-block; vertical-align: top; text-align: center;}
 .detail .gr img, .detail .ve img{width: 95px;}
 
 .detail .gr{border-bottom: 1px solid #ddd;}
-.detail .gr ul{width: 100%; text-align: left;}
+.detail .gr ul{width: 100%; display: flex; }
 .detail p{}
 
 .table{background: #eee; padding: 10px;}
 .table h3{text-align: center; margin: 30px auto;}
 .table table{text-align: center; width: 100%; max-width: 1300px; height: 100px; margin: 0 auto;}
-.table th{background: #226140; color: #fff;}
-.table td{background: #fff;}
+.table th{background: #226240; color: #fff;}
+.table td{background: #fff;} 
